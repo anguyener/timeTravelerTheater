@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ReservationViewController.swift
 //  timeTravelerTheater
 //
 //  Created by Anna Nguyen on 12/14/17.
@@ -8,17 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
-    
-    @IBOutlet weak var tableView: UITableView!
+class ReservationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-
-
 }
-

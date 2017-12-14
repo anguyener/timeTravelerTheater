@@ -14,6 +14,12 @@
 		793970C51FE2AAB300AB2F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793970C31FE2AAB300AB2F62 /* LaunchScreen.storyboard */; };
 		793970D01FE2AAB400AB2F62 /* timeTravelerTheaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793970CF1FE2AAB400AB2F62 /* timeTravelerTheaterTests.swift */; };
 		793970DB1FE2AAB400AB2F62 /* timeTravelerTheaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793970DA1FE2AAB400AB2F62 /* timeTravelerTheaterUITests.swift */; };
+		793970E91FE2AC3800AB2F62 /* Performance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793970E81FE2AC3800AB2F62 /* Performance.swift */; };
+		793970ED1FE2AD2700AB2F62 /* When.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793970EC1FE2AD2700AB2F62 /* When.swift */; };
+		793970EF1FE2AE7A00AB2F62 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793970EE1FE2AE7A00AB2F62 /* Statistics.swift */; };
+		793970F11FE2AF8C00AB2F62 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793970F01FE2AF8C00AB2F62 /* Show.swift */; };
+		793970F31FE2BBAC00AB2F62 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793970F21FE2BBAC00AB2F62 /* DetailsViewController.swift */; };
+		793970F51FE2BBC000AB2F62 /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793970F41FE2BBC000AB2F62 /* ReservationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		793970D61FE2AAB400AB2F62 /* timeTravelerTheaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timeTravelerTheaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		793970DA1FE2AAB400AB2F62 /* timeTravelerTheaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeTravelerTheaterUITests.swift; sourceTree = "<group>"; };
 		793970DC1FE2AAB400AB2F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		793970E81FE2AC3800AB2F62 /* Performance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Performance.swift; sourceTree = "<group>"; };
+		793970EC1FE2AD2700AB2F62 /* When.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = When.swift; sourceTree = "<group>"; };
+		793970EE1FE2AE7A00AB2F62 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		793970F01FE2AF8C00AB2F62 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		793970F21FE2BBAC00AB2F62 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		793970F41FE2BBC000AB2F62 /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +111,13 @@
 			children = (
 				793970BA1FE2AAB300AB2F62 /* AppDelegate.swift */,
 				793970BC1FE2AAB300AB2F62 /* ViewController.swift */,
+				793970F21FE2BBAC00AB2F62 /* DetailsViewController.swift */,
+				793970F41FE2BBC000AB2F62 /* ReservationViewController.swift */,
 				793970BE1FE2AAB300AB2F62 /* Main.storyboard */,
+				793970E81FE2AC3800AB2F62 /* Performance.swift */,
+				793970EC1FE2AD2700AB2F62 /* When.swift */,
+				793970EE1FE2AE7A00AB2F62 /* Statistics.swift */,
+				793970F01FE2AF8C00AB2F62 /* Show.swift */,
 				793970C11FE2AAB300AB2F62 /* Assets.xcassets */,
 				793970C31FE2AAB300AB2F62 /* LaunchScreen.storyboard */,
 				793970C61FE2AAB300AB2F62 /* Info.plist */,
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793970F11FE2AF8C00AB2F62 /* Show.swift in Sources */,
+				793970E91FE2AC3800AB2F62 /* Performance.swift in Sources */,
 				793970BD1FE2AAB300AB2F62 /* ViewController.swift in Sources */,
+				793970F51FE2BBC000AB2F62 /* ReservationViewController.swift in Sources */,
 				793970BB1FE2AAB300AB2F62 /* AppDelegate.swift in Sources */,
+				793970F31FE2BBAC00AB2F62 /* DetailsViewController.swift in Sources */,
+				793970EF1FE2AE7A00AB2F62 /* Statistics.swift in Sources */,
+				793970ED1FE2AD2700AB2F62 /* When.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
