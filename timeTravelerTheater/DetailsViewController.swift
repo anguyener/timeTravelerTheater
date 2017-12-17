@@ -29,9 +29,20 @@ class DetailsViewController: UIViewController {
         name.text = performance?.show.name
         typeLabel.text = performance?.show.type
         locationLabel.text = performance?.show.theater
-        numPerformances.text =  String(describing: performance?.statistics.performances)
-        numAttended.text = String(describing: performance?.statistics.attendance)
+        numPerformances.text =  String(describing: performance!.statistics.performances)
+        numAttended.text = String(describing: performance!.statistics.attendance)
         dateView.dataSource = self
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let destination = segue.destination as? ReservationViewController else { return }
+        guard let source = sender as? DateCell else { return }
+        var stringDate = source.date
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "MM/DD/YYYY"
+        let date = dateFormatter.date(from: stringDate!)
+        
+        destination.performanceDate = date
     }
 }
 
@@ -47,7 +58,7 @@ extension DetailsViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = dateView.dequeueReusableCell(withIdentifier: "DateCell", for: indexPath) as! DateCell
-        cell.configure(performance?.date.dates[indexPath.item])
+        cell.configure((performance?.date.dates[indexPath.item])!)
         return cell
     }
 }

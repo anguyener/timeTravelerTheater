@@ -16,6 +16,7 @@ class DateCell: UITableViewCell {
     @IBOutlet weak var dateLabel: UILabel!
     
     func configure(_ with: String) {
-        dateLabel.text = with
+        date = with
+        dateLabel.text = date
     }
 }

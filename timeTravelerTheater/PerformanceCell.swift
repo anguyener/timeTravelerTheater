@@ -10,8 +10,6 @@ import UIKit
 
 class PerformanceCell: UITableViewCell {
     
-    //PerformanceNameLabel
-    
     @IBOutlet weak var name: UILabel!
     
     var performance: Performance? {
