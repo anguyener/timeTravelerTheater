@@ -10,8 +10,8 @@ import Foundation
 
 struct Statistics {
     let gross: Int
-    let performances: Int
-    let attendance: Int
+    var performances: Int
+    var attendance: Int
     let capacity: Int
     let potential: Int
     
@@ -24,6 +24,6 @@ struct Statistics {
     }
     
     init(dictionary: [String: Int]) {
-        self.init(gross: dictionary["gross"]!, performances: dictionary["performances"]!, attendance: dictionary["attendance"]!, capacity: dictionary["capacity"]!, potential: dictionary["potential"]!)
+        self.init(gross: dictionary["Gross"]!, performances: dictionary["Performances"]!, attendance: dictionary["Attendance"]!, capacity: dictionary["Capacity"]!, potential: dictionary["Gross Potential"]!)
     }
 }

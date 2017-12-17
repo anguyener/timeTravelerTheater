@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		146F90261FE440AC00BF03B4 /* PerformanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F90251FE440AC00BF03B4 /* PerformanceCell.swift */; };
+		146F90281FE5F09F00BF03B4 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F90271FE5F09F00BF03B4 /* DateCell.swift */; };
 		793970BB1FE2AAB300AB2F62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793970BA1FE2AAB300AB2F62 /* AppDelegate.swift */; };
 		793970BD1FE2AAB300AB2F62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793970BC1FE2AAB300AB2F62 /* ViewController.swift */; };
 		793970C01FE2AAB300AB2F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793970BE1FE2AAB300AB2F62 /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		146F90251FE440AC00BF03B4 /* PerformanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceCell.swift; sourceTree = "<group>"; };
+		146F90271FE5F09F00BF03B4 /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
 		793970B71FE2AAB300AB2F62 /* timeTravelerTheater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timeTravelerTheater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		793970BA1FE2AAB300AB2F62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		793970BC1FE2AAB300AB2F62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 				793970F21FE2BBAC00AB2F62 /* DetailsViewController.swift */,
 				793970F41FE2BBC000AB2F62 /* ReservationViewController.swift */,
 				793970BE1FE2AAB300AB2F62 /* Main.storyboard */,
+				146F90271FE5F09F00BF03B4 /* DateCell.swift */,
+				146F90251FE440AC00BF03B4 /* PerformanceCell.swift */,
 				793970E81FE2AC3800AB2F62 /* Performance.swift */,
 				793970EC1FE2AD2700AB2F62 /* When.swift */,
 				793970EE1FE2AE7A00AB2F62 /* Statistics.swift */,
@@ -277,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				146F90261FE440AC00BF03B4 /* PerformanceCell.swift in Sources */,
+				146F90281FE5F09F00BF03B4 /* DateCell.swift in Sources */,
 				793970F11FE2AF8C00AB2F62 /* Show.swift in Sources */,
 				793970E91FE2AC3800AB2F62 /* Performance.swift in Sources */,
 				793970BD1FE2AAB300AB2F62 /* ViewController.swift in Sources */,
@@ -452,6 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = timeTravelerTheater/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mobileApps.timeTravelerTheater;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -466,6 +475,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = timeTravelerTheater/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mobileApps.timeTravelerTheater;
 				PRODUCT_NAME = "$(TARGET_NAME)";

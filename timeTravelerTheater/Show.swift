@@ -20,6 +20,6 @@ struct Show {
     }
     
     init(dictionary: [String: String]) {
-        self.init(type: dictionary["type"]!, name: dictionary["name"]!, theater: dictionary["theater"]!)
+        self.init(type: dictionary["Type"]!, name: dictionary["Name"]!, theater: dictionary["Theatre"]!)
     }
 }

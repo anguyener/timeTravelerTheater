@@ -9,6 +9,7 @@
 import Foundation
 
 struct When {
+    var dates: [String]
     let full: String
     let day: Int
     let month: Int
@@ -17,10 +18,12 @@ struct When {
     init(full: String, day: Int, month: Int, year: Int) {
         self.full = full
         self.day = day
+        self.month = month
         self.year = year
+        self.dates = [full]
     }
     
     init(dictionary: [String: Any]) {
-        self.init(full: dictionary["full"]!, day: dictionary["day"]!, month: dictionary["month"]!, year: dictionary["year"]!)
+        self.init(full: dictionary["Full"]! as! String, day: dictionary["Day"]! as! Int, month: dictionary["Month"]! as! Int, year: dictionary["Year"]! as! Int)
     }
 }
